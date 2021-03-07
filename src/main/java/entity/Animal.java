@@ -1,13 +1,8 @@
 package entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.Value;
 
-@ToString
-
-@AllArgsConstructor
+@Value
 public class Animal {
     String name;
     String type;
